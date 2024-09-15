@@ -86,11 +86,7 @@ Alternatively, you can use Docker to run the application:
 To build and run the Docker container:
 
 ```bash
-# Build the Docker image
-docker build -t document-retrieval .
-
-# Run the Docker container
-docker run -d -p 5000:5000 document-retrieval
+docker-compose up
 ```
 
 ---
@@ -123,7 +119,7 @@ docker run -d -p 5000:5000 document-retrieval
   {
       "user_id": "123",
       "text": "What is AI?",
-      "top_k": 5,
+      "top_k": 2,
       "threshold": 0.5
   }
   ```
