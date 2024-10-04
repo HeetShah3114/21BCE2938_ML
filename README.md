@@ -79,7 +79,7 @@ python app.py
 
 The server will start running on `localhost:5000`.
 
-Alternatively, you can use Docker to run the application:
+Alternatively, you can use Docker to run the application(under progress):
 
 #### **6. Docker Setup**
 
